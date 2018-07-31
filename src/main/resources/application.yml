@@ -1,0 +1,11 @@
+spring:
+  activiti:
+    database-schema-update: false
+    history-level: full
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.141.128:3306/activiti
+    username: root
+    password: root
+server:
+  port: 8080
